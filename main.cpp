@@ -42,8 +42,11 @@ double limfib()
     }
 }
 
+// Returns square of x
 double sqr(double x) { return x*x; }
 
+// Computes real roots of polynomial
+// with integer coefficients a, b, c
 bool realRoots(
         int a, int b, int c,
         double& x1, double& x2)
@@ -58,6 +61,7 @@ bool realRoots(
     return true;
 }
 
+// Finds polynomial having x mong its roots
 bool identify(double x, int& a, int& b, int& c)
 {
     int N = 10;
